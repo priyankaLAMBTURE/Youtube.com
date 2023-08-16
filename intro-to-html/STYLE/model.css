@@ -1,0 +1,28 @@
+p
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.model-title
+{
+
+font-weight: bold;
+}
+
+.model-text
+{
+font-weight: 500;
+}
+
+.delivery-span
+{
+
+color: black;
+}
+
+
+.delivery-span:hover
+{
+
+cursor: pointer;
+}

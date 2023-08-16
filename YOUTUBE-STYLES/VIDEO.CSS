@@ -1,0 +1,196 @@
+
+.thumbnail
+{
+  width: 100%;
+}
+
+.video-title
+{
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  
+}
+
+.video-author
+{
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 3px;
+}
+
+.video-stats
+{
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.channel-picture-box
+{
+  
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+
+.channel-info-box
+{
+  display: inline-block;
+
+}
+
+
+.profile-picture
+{
+  width: 36px;
+  border-radius: 36px;
+}
+
+.thumbnail-row
+{
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.big-image-container{
+  position: relative;
+
+}
+.video-run-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: roboto, arial;
+  font-size: 12px;
+  border-radius: 2px;
+  right: 5px;
+  bottom: 10px;
+padding: 3px 3px 3px 3px;
+font-weight: 500;}
+
+
+
+
+
+
+
+
+.big-pic-thumbnail-image-second
+{
+  width: 100%;
+}
+
+.profile-pic-vertical-div-box, .video-info-whole-vertical-div-box-beside-pfp
+{
+  display: inline-block;
+}
+
+.profile-pic-vertical-div-box
+{
+  vertical-align: top;
+  width: 48px;
+}
+
+
+.actual-profile-pic-image
+{
+  width: 36px;
+  border-radius: 36px;
+}
+
+.try-not-to-laugh-text-line
+{
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+
+.Markiplier-text-line
+{
+  line-height: 18px;
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+.views-text-line
+{
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
+
+.div-bpx-for-pfp-plus-whole-bottom-horizontal-div-box
+{
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+}
+
+
+
+
+
+
+
+.tmkoc-image
+{
+  width: 100%;
+}
+
+.bottom-whole-container
+{
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  margin-top: 15px;
+}
+
+.sab-tv-image
+{
+  width: 36px;
+  border-radius: 36px;
+}
+
+
+
+
+.infinite-grid-container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 38px;
+  z-index: 10;
+}
+
+
+@media (max-width: 1225px) {
+  .infinite-grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 950px ) {
+  .infinite-grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 660px) {
+  .infinite-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
